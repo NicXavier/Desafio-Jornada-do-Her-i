@@ -27,7 +27,7 @@ let nivel;
 //Se XP for maior ou igual 10.000 = Radiante
 
 //Verificando quantidade de XP e atribuindo nível
-if (heroi.xp <= 1000){
+if (heroi.xp >= 0 && heroi.xp <= 1000){
     nivel = "Ferro";
 } else if (heroi.xp >= 1001 && heroi.xp <=2000) {
     nivel = "Bronze";

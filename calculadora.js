@@ -25,7 +25,7 @@ function calcScoreboardLevel(wins, loses){
 //Se vitórias for entre 91 e 100 = Lendário
 //Se vitórias for maior ou igual a 101 = Imortal
 
-if (wins <= 10){
+if (wins >= 0 && <= 10){
     level = "Ferro";
 }   else if (wins >10 && wins <21){
     level = "Bronze";
